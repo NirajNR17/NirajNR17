@@ -20,3 +20,8 @@ h1{
   animation-duration: 10s;
   animation-iteration-count:20;
 }
+img {
+  padding:100px;
+  width: 20%;
+  height: 20%;
+}
