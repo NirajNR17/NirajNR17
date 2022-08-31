@@ -1,0 +1,22 @@
+html, body {
+  background-color:#404040;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes example {
+  0% {color: red;}
+  25% {color: yellow;}
+  50% {color: orange;}
+  75% {color: yellowgreen;}
+  100% {color: red;}
+}
+
+h1{
+  text-shadow: 2px 2px 5px;
+  color:red;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count:20;
+}
