@@ -62,7 +62,7 @@ user.addEventListener("click", (value) => {
     playsound('loose.mp3');
   }
   else {
-    show.innerHTML = `<img src="assets/youwin.png" >`;
+    show.innerHTML = `<img src="http://aerbey.github.io/Chain-Slider/img/StreetFighter/you-win-text.png" >`;
     playsound('win.mp3');
   }
   console.log(result)

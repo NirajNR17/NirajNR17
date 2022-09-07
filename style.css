@@ -68,11 +68,11 @@ h1{font-size:4rem;
 #show{text-align:center;
     justify-content:center;
     align-items:center;
-    color:#fff200;
+    color:#fbff00;
     font-weight:700;
-    text-shadow:2px 2px #e6198f}
+    text-shadow:2px 2px #911276}
 #show img{height:100px;
-    width:120px}
+    width:200px}
 button{display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
