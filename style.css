@@ -17,6 +17,7 @@ html, body {
     box-shadow: 0px 10px 25px rgba(0, 0, 0, .19);
   }
 }
+@media (min-width: 200px) and (max-width: 600px)
 
 h1{
   text-shadow: 2px 2px 5px;
@@ -26,6 +27,8 @@ h1{
   animation-duration: 10s;
   animation-iteration-count:20;
 }
+#user{flex-direction:column;
+     margin-top:25px}
 img.snake{
   width:20%;
   height:55%;
@@ -33,7 +36,7 @@ img.snake{
   float:left;
   display:block; 
   cursor: pointer; 
-transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
   transform-origin: center center;
   filter: brightness(80%);
 }
@@ -63,6 +66,12 @@ p{
   margin-left:600px;
   font-size: 20px;
 }
+#show{
+   margin-top:200px;
+  margin-left:600px;
+  height:100px;
+      width:120px
+      }
 .snake:hover{
    filter: brightness(100%);
   transform: scale(1.1);
@@ -75,6 +84,4 @@ p{
    filter: brightness(100%);
   transform: scale(1.1);
 }
-@media screen and (max-width:1000px){
-  margin:auto 10px;
-}
+@media (min-width:200px) and (max-width:600px){h1{font-size:2rem}#user{flex-direction:column;margin-top:25px}.choose{width:70vw;height:120px}}
