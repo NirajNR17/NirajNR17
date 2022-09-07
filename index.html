@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Snake Water Gun</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <script src="script.js"></script>
-  <h1>SNAKE WATER GUN</h1>
-<div id="user">  
-  <img class="snake" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e51cd9d6-b5bd-4cf4-8640-ee78613e1180/dfb157z-606867c4-d281-4b39-88b5-25c9ab60b9b3.png/v1/fill/w_327,h_598,strp/mr__snake_by_disneydroid_dfb157z-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk4IiwicGF0aCI6IlwvZlwvZTUxY2Q5ZDYtYjViZC00Y2Y0LTg2NDAtZWU3ODYxM2UxMTgwXC9kZmIxNTd6LTYwNjg2N2M0LWQyODEtNGIzOS04OGI1LTI1YzlhYjYwYjliMy5wbmciLCJ3aWR0aCI6Ijw9MzI3In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2X0PyJc8yqGZJZQMj4oo_zRKxNmWdOYbnl58gvEVY7w" alt="snake">
-
-
-<img class="gun" onclick="mach()" src="http://pluspng.com/img-png/gun-png-png-file-name-gun-892.png">  
-<img class="water" src="https://www.pngall.com/wp-content/uploads/5/Water-Glass.png">   
-</div> 
-  <div id="show">
-<button class="winorloss" type="reset">Make your Choise</button>
+  <h1>Snake Water Gun Game</h1>
+  <div id="user">
+    <div class="choose" id="snake">
+      <img
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e51cd9d6-b5bd-4cf4-8640-ee78613e1180/dfb157z-606867c4-d281-4b39-88b5-25c9ab60b9b3.png/v1/fill/w_327,h_598,strp/mr__snake_by_disneydroid_dfb157z-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTk4IiwicGF0aCI6IlwvZlwvZTUxY2Q5ZDYtYjViZC00Y2Y0LTg2NDAtZWU3ODYxM2UxMTgwXC9kZmIxNTd6LTYwNjg2N2M0LWQyODEtNGIzOS04OGI1LTI1YzlhYjYwYjliMy5wbmciLCJ3aWR0aCI6Ijw9MzI3In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2X0PyJc8yqGZJZQMj4oo_zRKxNmWdOYbnl58gvEVY7w"
+        alt="">
+    </div>
+    <div class="choose" id="water">
+      <img src="https://www.pngall.com/wp-content/uploads/5/Water-Glass.png" alt="">
+    </div>
+    <div class="choose" id="gun">
+      <img src="http://pluspng.com/img-png/gun-png-png-file-name-gun-892.png" alt="">
+    </div>
   </div>
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <div id="show"></div>
+  <div class="again"><button type="reset">Try Again</button></div>
+
 </body>
+<script src="script.js"></script>
 
 </html>
